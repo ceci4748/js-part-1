@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script>
+    var users = ['Alph', 'Bravo', 'Charlie', 'Delta'];
+    var userIndex = prompt('Write the user index');
+    console.log(users[userIndex]);
+
+    if(typeof(users[userIndex]) === 'string') {
+      alert ('User exists, with user name: ' + users[userIndex]);
+    }
+    else {
+      alert('User does not exist');
+    }
+    </script>
+
+  </body>
+</html>
